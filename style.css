@@ -438,3 +438,22 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+.services__card:hover{
+    transform: scale(1.085);
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .services{
+        height: 1600px;
+    }
+
+    .services h1{
+        font-size: 2rem;
+        margin-top: 12rem;
+    }
+    
+    
+}
